@@ -1,38 +1,86 @@
+/* App.css */
+
+/* General Styles for the App */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #121212; /* Dark background */
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* White text color */
 }
 
-.App-link {
-  color: #61dafb;
+/* Quote Box Styling */
+#quote-box {
+  width: 60%;
+  max-width: 700px;
+  padding: 30px;
+  background-color: #1a1a1a; /* Dark box background */
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.5); /* Neon glow */
+  text-align: center;
+  margin-bottom: 50px; /* Increased space between quote box and footer */
+  border: 3px solid #00ffcc; /* Neon border */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Quote Text Styling */
+#text {
+  font-size: 2rem;
+  color: #00ffcc; /* Neon cyan */
+  margin-bottom: 15px;
+  text-shadow: 0 0 15px #00ffcc; /* Glowing text effect */
+}
+
+/* Author Text Styling */
+#author {
+  font-size: 1.5rem;
+  color: #ff00ff; /* Neon magenta */
+  margin-bottom: 30px; /* Increased margin */
+  text-shadow: 0 0 15px #ff00ff; /* Glowing text effect */
+}
+
+/* Button Styling */
+#new-quote, #tweet-quote {
+  background-color: #ff00ff; /* Neon magenta background */
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-shadow: 0 0 10px #ff00ff; /* Glowing effect */
+  transition: all 0.3s ease;
+  margin-top: 30px; /* Increased margin-top for more space between buttons */
+}
+
+#new-quote:hover, #tweet-quote:hover {
+  background-color: #ff66ff; /* Lighter magenta */
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.7);
+  transform: scale(1.05);
+}
+
+/* Tweet Button Styling */
+#tweet-quote {
+  margin-top: 40px; /* Increased margin-top to create more space between New Quote and Tweet Quote */
+  text-align: center;
+  display: inline-block;
+}
+
+#tweet-quote:hover {
+  color: #00ffcc; /* Change to cyan on hover */
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* Footer Styles */
+#footer {
+  position: relative; /* Positioned below the quote box */
+  font-size: 1rem;
+  color: #888;
+  text-align: center;
+  margin-top: 50px; /* Increased space between quote box and footer */
+  text-shadow: 0 0 10px #00ffcc; /* Neon glow for footer */
 }
