@@ -1,6 +1,12 @@
+# .github/dependabot.yml
+
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/" # Location of package.json
     schedule:
-      interval: "weekly"
+      interval: "daily" # Can be "daily", "weekly", "monthly"
+    versioning-strategy: "increase" # Options: "increase", "increase-if-necessary", "lockfile-only", "auto"
+    allow:
+      - dependency-type: "all" # Include both direct and dev dependencies
+# .github/dependabot.yml
