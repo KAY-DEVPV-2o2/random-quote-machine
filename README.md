@@ -101,12 +101,11 @@ Here’s an overview of the main folder structure of the project:
 └── package.json              # Project metadata and dependencies
 ```
 
-## API Used
+## Data Source
 
-This project fetches data from the following API:
+This project fetches random quotes from a local `quotes.json` file. 
 
-- [https://api.quotable.io/random](https://api.quotable.io/random)  
-  Provides random quotes that are displayed in the app.
+The `quotes.json` file contains a collection of quotes, and one is randomly selected to be displayed in the app.
 
 ## Links to Documentation or Relevant Resources
 
