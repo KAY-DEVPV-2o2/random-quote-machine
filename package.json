@@ -12,7 +12,7 @@
     "random-quote-machine": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -43,5 +43,12 @@
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
+  },
+  "overrides": {
+    "axios": "^1.7.8",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/user-event": "^14.5.2",
+    "web-vitals": "^4.2.4"
   }
 }
