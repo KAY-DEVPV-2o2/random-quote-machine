@@ -4,7 +4,12 @@
   "private": true,
   "description": "A React app that displays random quotes using a local JSON file.",
   "repository": "https://kay-devpv-2o2.github.io/random-quote-machine",
-  "keywords": ["react", "quotes", "random", "json"],
+  "keywords": [
+    "react",
+    "quotes",
+    "random",
+    "json"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
@@ -12,9 +17,10 @@
     "axios": "^1.7.8",
     "nth-check": "^2.1.1",
     "postcss": "^8.4.49",
+    "random-quote-machine": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1", 
+    "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -44,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.2.0"
   }
 }
