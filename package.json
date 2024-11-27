@@ -1,7 +1,10 @@
 {
   "name": "random-quote-machine",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "A React app that displays random quotes using a local JSON file.",
+  "repository": "https://github.com/KAY-DEVPV-2o2/random-quote-machine",
+  "keywords": ["react", "quotes", "random", "json"],
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
@@ -9,10 +12,9 @@
     "axios": "^1.7.8",
     "nth-check": "^2.1.1",
     "postcss": "^8.4.49",
-    "random-quote-machine": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^3.4.4",
+    "react-scripts": "^5.0.1", 
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -43,12 +45,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
-  },
-  "overrides": {
-    "axios": "^1.7.8",
-    "@testing-library/react": "^16.0.1",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/user-event": "^14.5.2",
-    "web-vitals": "^4.2.4"
   }
 }
