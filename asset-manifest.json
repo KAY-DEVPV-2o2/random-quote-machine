@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://kay-devpv-2o2.github.io/random-quote-machine/static/css/main.2b5dc658.css",
-    "main.js": "https://kay-devpv-2o2.github.io/random-quote-machine/static/js/main.ba86afab.js",
+    "main.js": "https://kay-devpv-2o2.github.io/random-quote-machine/static/js/main.656eb0c6.js",
     "index.html": "https://kay-devpv-2o2.github.io/random-quote-machine/index.html",
     "main.2b5dc658.css.map": "https://kay-devpv-2o2.github.io/random-quote-machine/static/css/main.2b5dc658.css.map",
-    "main.ba86afab.js.map": "https://kay-devpv-2o2.github.io/random-quote-machine/static/js/main.ba86afab.js.map"
+    "main.656eb0c6.js.map": "https://kay-devpv-2o2.github.io/random-quote-machine/static/js/main.656eb0c6.js.map"
   },
   "entrypoints": [
     "static/css/main.2b5dc658.css",
-    "static/js/main.ba86afab.js"
+    "static/js/main.656eb0c6.js"
   ]
 }
