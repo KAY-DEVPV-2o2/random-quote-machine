@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A React app that displays random quotes using a local JSON file.",
-  "repository": "https://github.com/KAY-DEVPV-2o2/random-quote-machine",
+  "repository": "https://kay-devpv-2o2.github.io/random-quote-machine",
   "keywords": ["react", "quotes", "random", "json"],
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
